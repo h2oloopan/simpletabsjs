@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title></title>
+        <link rel="stylesheet" type="text/css" href="simpletabs.css" />
+        <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+        <script type="text/javascript" src="jquery.simpletabs.js"></script>
+    </head>
+    <body style="font-family: Arial, Tahoma, Verdana">
+        <div id="example" style="width: 600px; height: 400px;">
+            <ul>
+                <li><i data-link="#t1">Tab 1</i></li>
+                <li><i data-link="#t2">Tab 2</i></li>
+                <li><i data-link="#t3">Tab 3</i></li>
+            </ul>
+            <div id="t1">
+            Hedge fund giant Leon Cooperman pulled back large stakes he had in some of America's biggest banks and took a big position in energy exploration in the second quarter, according to his latest regulatory findings.
+            </div>
+            <div id="t2">
+            At least two brokerages downgraded the company's stock and four others cut their price targets.
+            </div>
+            <div id="t3">
+            Groupon's original high-margin business, which promotes to its members heavily discounted daily deals on behalf of retailers, is showing signs of slowing. This has pushed the company to expand into new areas such as consumer product sales and merchant services, which have much lower margins.
+            </div>
+        </div>
+
+        <script type="text/javascript">
+            $(function() {
+                $("#example").simpleTabs();
+            });
+        </script>
+
+    </body>
+
+</html>
