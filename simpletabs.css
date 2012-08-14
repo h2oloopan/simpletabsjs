@@ -17,18 +17,14 @@
     margin-right: 2px;
     border-left: 1px solid #D8D8D8;
     border-right: 1px solid #D8D8D8;
-    outline: none;
 }
 
 .tabs-nav-tab i
 {
-    text-decoration: none;
-    color: Black;
     display: inline-block;
     padding: 4px;
     height: 13px;
     line-height: 13px;
-    outline: none;
     font-style: normal;
 }
 
