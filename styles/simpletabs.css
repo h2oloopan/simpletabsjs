@@ -1,3 +1,8 @@
+.tabs-container
+{
+    /* Can add custom styles */
+}
+
 .tabs-navigation
 {
     list-style: none;
@@ -5,7 +10,7 @@
     margin: 0;
     padding: 0;
     height: 21px;
-    background: url(images/tab-line.gif) repeat-x bottom;
+    background: url(../images/tab-line.gif) repeat-x bottom;
 }
 
 .tabs-nav-tab
@@ -28,6 +33,40 @@
     font-style: normal;
 }
 
+.tabs-nav-tab-hs
+{
+    clear: both;
+    text-align: right;
+}
+
+.tabs-nav-hs-span
+{
+    position: relative;
+    top: -17px;
+    color: Gray;
+    cursor: pointer;
+}
+
+.tabs-nav-hs-img
+{
+    width: 10px;
+    height: 5px;
+    border: 0;
+    position: relative;
+    top: -17px;
+    cursor: pointer;
+}
+
+.tabs-nav-hs-img-max
+{
+    background: url(../images/maximize.gif) no-repeat;
+}
+
+.tabs-nav-hs-img-min
+{
+    background: url(../images/minimize.gif) no-repeat;
+}
+
 .tabs-content
 {
     clear: both;
@@ -39,13 +78,13 @@
 .tabs-tab-inactive
 {
     font-weight: normal;
-    background: url(images/tab.gif) repeat-x;
+    background: url(../images/tab.gif) repeat-x;
 }
 
 .tabs-tab-active
 {
     font-weight: bold;
-    background: url(images/tab-active.gif) repeat-x;
+    background: url(../images/tab-active.gif) repeat-x;
 }
 
 .tabs-tab-inactive i
