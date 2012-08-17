@@ -60,7 +60,7 @@
             if(options.enableHideShow) {
                 var li = $('<li class="tabs-nav-tab-hs"></li>').appendTo(ul);
 
-                $('<span class="tabs-nav-hs-span">Hide</span><img class="tabs-nav-hs-img tabs-nav-hs-img-min" />').click(function() {
+                $('<span class="tabs-nav-hs-span">Hide</span><p class="tabs-nav-hs-img tabs-nav-hs-img-min"></p>').click(function() {
                     var li = ul.find(".tabs-nav-tab-hs");
                     var hideShowSpan = $(".tabs-nav-hs-span", li);
                     var hideShowImg = $(".tabs-nav-hs-img", li);
