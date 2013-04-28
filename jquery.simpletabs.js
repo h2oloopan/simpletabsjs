@@ -2,7 +2,6 @@
 // version: 1.0.1
 // author: Shengying Pan
 // license: MIT
-// http://projects.shengyingpan.com/simpletabsjs
 
 (function($) {
     $.fn.simpleTabs = function(options) {
